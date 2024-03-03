@@ -1,38 +1,88 @@
+body{
+  /* background: url(food.jpg) no-repeat center top fixed; */
+  background: url(food.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #dcedf7;
+  border-radius: 20px;
+  padding: 15px;
+  cursor: default;
+}
+
+.button-delete{
+  font-family: 'Montserrat', sans-serif;
+  background: none;
+  border: 0;
+  font-weight: bolder;
+  color: red;
+}
+
+.button-add{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #77cf40;
+  padding: 20px;
+  border-radius: 20px;
+  border: none;
+  font-size: 17px;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-around;
+}
+
+.whole-plan{
+  width: 70%;
+  height: 100vh;
+  margin-left: 2%;
+}
+
+.myInput{
+  width: 70%;
+  height: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  display: block;
+  margin-top: 30px;
+}
+
+textarea{
+  display: block;
+  border: 1px solid #ddd;
+  margin-top: 30px;
+  width: 70%;
+  height: 200px;
+  border-radius: 20px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+}
+
+.default{
+  background-color: #dcedf7;
+}
+
+.selected{
+  background-color: #fad106;
+}
+
+p{
   color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
 }
 
-.App-link {
-  color: #61dafb;
+.title{
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.field{
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
 }
